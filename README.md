@@ -11,3 +11,12 @@ To optimize the CNN model performance on the CIFAR-10/100 datasets, we have appl
 
 ![cctcifar10](https://github.com/Prithviraj97/CS598DeepLearning/assets/60533093/e8f7b19d-4191-4c60-be4a-4bff108c5c5d)
 ![CCTCIFAR100AC](https://github.com/Prithviraj97/CS598DeepLearning/assets/60533093/fab612b4-e9b3-42a6-939d-6486291de8eb)
+# Result
+The overall result is summarized in the table below. (Note: - represents a missing experiment)
+| Model | CIFAR-10 | CIFAR-100 | Fashion-MNIST | MNIST |
+|-------|----------|-----------|---------------|-------|
+| CNN   | 76.31\%  | 44.07\%   | 90.29\%       | 99\%  |
+| CCT   | 98.74\%  | 50.05\%   | 91.4\%        | -     |
+| ViT   | 68.76\%  | 55\%      | -             | -     |
+| DA    | 80.6\%   | -         | -             | -     |
+| TL    | 68.09\%  | 45.46\%   | -             | -     |
